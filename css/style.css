@@ -1,0 +1,108 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.Titulo{
+    font-style: italic;
+    text-align: center;
+
+}
+
+.menu-lista{
+    font-style: italic;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    margin-top: 35px;
+}
+
+body{
+    background-color: #68b6fa;
+    font-style: italic;
+}
+
+
+footer{
+    margin-top: 100px;
+}
+
+
+.footer-tienda{
+    margin-top: 595px;
+}
+
+
+
+.header-tiendas{
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 90px;
+}
+
+
+
+.viñedo{
+    margin-top: 110px;
+    margin-left: 718px;
+    margin-bottom: 40px;
+}
+
+.footer-nosotros{
+    margin-top: 560px;
+}
+
+.header-nosotros{
+    margin-top: 35px;
+    text-align: center;
+
+}
+
+.nosotros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+.nosotros-2{
+    margin-top: 110px;
+    margin-left: 240px;
+}
+
+
+.footer-contacto{
+    margin-top: 535px;
+}
+
+
+.producto-titulo{
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+
+.footer-productos{
+    margin-top: 640px;
+;
+}
+
+.product_page{
+    font-weight: 400; padding-top: 0px;
+}
+
+.botella-img{
+    float: left
+}
+
+.lista-tiendas{
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+    justify-content: space-evenly;
+    
+}
+@media screen and (max-width: 768px) {
+    .lista-tiendas{
+        display: grid;
+        grid-template-columns: repeat(3, 33.3%);
+        justify-content: space-evenly;
+        }
+}
